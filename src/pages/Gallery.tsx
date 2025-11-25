@@ -1,4 +1,3 @@
-// src/pages/Gallery.tsx
 import {
   Box,
   Typography,
@@ -76,7 +75,7 @@ export default function Gallery() {
           style={{ backgroundColor: "#dbdbdb" }}
           exclusive
           value={filter}
-          onChange={(e, newValue) => newValue && setFilter(newValue)}
+onChange={(_, newValue) => newValue && setFilter(newValue)}
         >
           <ToggleButton value="all">All</ToggleButton>
           <ToggleButton value="modeling">Modeling</ToggleButton>

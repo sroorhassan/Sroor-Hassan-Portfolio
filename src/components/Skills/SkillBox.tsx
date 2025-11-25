@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import { Grid, Box, Typography, IconButton } from "@mui/material";
-import FlipIcon from "@mui/icons-material/FlipCameraAndroid";
+import React from "react";
+import { Grid, Box, Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
 interface SkillBoxProps {

@@ -1,4 +1,3 @@
-import React from "react";
 import { useParams } from "react-router-dom";
 import { Box, Typography, Grid, Card } from "@mui/material";
 
@@ -38,7 +37,6 @@ const certificatesData = {
 const Courses = () => {
   const { fieldId } = useParams();
 
-  // ✅ تحقق من المفتاح
   if (!fieldId || !(fieldId in certificatesData)) {
     return (
       <Box sx={{ p: 4, textAlign: "center", color: "#fff" }}>
@@ -47,7 +45,6 @@ const Courses = () => {
     );
   }
 
-  // ✅ استخدم المفتاح بأمان
   const certificates =
     certificatesData[fieldId as keyof typeof certificatesData];
 

@@ -1,5 +1,4 @@
-import { Container, Grid, Typography, Box, CssBaseline, IconButton, Button } from "@mui/material";
-import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import { Container, Grid, Typography, Box, CssBaseline, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import img1 from "/Qoutes/David Goggins 1.jpg";
 import img2 from "/Qoutes/Steve Jobs 1.png";
