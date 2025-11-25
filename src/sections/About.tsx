@@ -2,7 +2,7 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import { Typography, Button } from "@mui/material";
 import Sror3Img from "../imgs/Sror 3.png";
-
+import { Link } from "react-router-dom";
 function About() {
   return (
     <Box paddingTop={5} id={"About"}>
@@ -45,9 +45,10 @@ Through self-learning and practical projects, I’ve developed solid skills in C
 I enjoy solving problems, optimizing backend performance, and learning new technologies to write clean, scalable, and maintainable code.
 I’m looking for opportunities where I can contribute to real-world software projects, collaborate with experienced teams, and grow as a developer.
             </Typography>
-            <Button variant="contained" color="primary" href="/about">
-              Read More
-            </Button>
+<Button variant="contained" color="primary" component={Link} to="/about">
+  Read More
+</Button>
+
           </Box>
 
 
