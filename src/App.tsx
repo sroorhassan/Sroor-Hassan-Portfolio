@@ -6,6 +6,7 @@ import LanguagesPage from "./pages/Courses/Languages";
 import ProgrammingPage from "./pages/Skills/ProgrammingSkills";
 import About from "./pages/About"
 import QuotesPage from "./pages/Qoutes";
+import Activities from "./pages/Activities";
 export default function App() {
   return (
     <Router>
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/skills/programmingskills" element={<ProgrammingPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/quotes" element={<QuotesPage />} />
+        <Route path="/activities" element={<Activities />} />
       </Routes>
     </Router>
   );

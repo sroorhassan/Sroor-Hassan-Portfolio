@@ -3,9 +3,9 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { useParams, useNavigate } from "react-router-dom";
 import ShowProjectCard from "../components/projects/ShowProjectCard";
 
-import OnlineStadium from "../imgs/Online Stadiums.png";
-import DentalClinic from "../imgs/Dental Clinic.png";
-import StadiumSystem from "../imgs/Stadium System.png";
+import OnlineStadium from "../imgs/Online Stadiums.webp";
+import DentalClinic from "../imgs/Dental Clinic.webp";
+import StadiumSystem from "../imgs/Stadium System.webp";
 
 const projectData = {
   programming: [

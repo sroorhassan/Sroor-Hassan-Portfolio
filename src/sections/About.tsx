@@ -1,7 +1,7 @@
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import { Typography, Button } from "@mui/material";
-import Sror3Img from "../imgs/Sror 3.png";
+import Sror3Img from "../imgs/Sror 3.webp";
 import { Link } from "react-router-dom";
 function About() {
   return (

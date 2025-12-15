@@ -11,12 +11,12 @@ import CloseIcon from "@mui/icons-material/Close";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
-import Sror1 from "../imgs/Sror 1.png";
-import Sror2 from "../imgs/Sror 2.png";
-import Sror3 from "../imgs/Sror 3.png";
-import Sror4 from "../imgs/Sror 4.png";
-import Sror5 from "../imgs/Sror 5.png";
-import Sror6 from "../imgs/Sror 6.png";
+import Sror1 from '../imgs/Sror 1.webp';
+import Sror2 from "../imgs/Sror 2.webp";
+import Sror3 from "../imgs/Sror 3.webp";
+import Sror4 from "../imgs/Sror 4.webp";
+import Sror5 from "../imgs/Sror 5.webp";
+import Sror6 from "../imgs/Sror 6.webp";
 import Masonry from "@mui/lab/Masonry";
 
 const allImages = [

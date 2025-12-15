@@ -1,6 +1,6 @@
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
-import HeroSectionImg from "../imgs/Sror 2.png";
+import HeroSectionImg from "../imgs/Sror 8.webp";
 import { Typography, Button } from "@mui/material";
 import { motion } from "framer-motion";
 import ResponsiveAppBar from "../components/home/AppBar";

@@ -50,7 +50,7 @@ export default function Footer() {
 
           <IconButton
             component="a"
-            href="https://instagram.com/srorhassan.1"
+            href="https://instagram.com/sroor.hs"
             target="_blank"
             sx={iconStyle}
           >

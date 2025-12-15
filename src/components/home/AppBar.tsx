@@ -11,7 +11,7 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import { useTheme } from "@mui/material/styles";
 
-const pages = ["Home", "About", "Skills", "Projects"];
+const pages = ["Home", "About", "Skills", "Projects","Activities"];
 
 function ResponsiveAppBar() {
   const theme = useTheme();
@@ -29,6 +29,10 @@ function ResponsiveAppBar() {
   };
 
   const handlePageClick = (page: string) => {
+    if(page === "Activities"){
+      window.location.href = "/activities";
+      return;
+    }
     //setActivePage(page);
     const section = document.getElementById(page);
     if (section) {
