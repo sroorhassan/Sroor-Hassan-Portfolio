@@ -1,7 +1,6 @@
 // Activities Page – React + MUI (TypeScript Ready)
 // Strong, dark, minimal, with images support
 
-import React from "react";
 import {
   Box,
   Typography,
