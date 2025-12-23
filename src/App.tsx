@@ -12,7 +12,6 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects/:category" element={<ProjectsPage />} />
-        {/* <Route path="/gallery" element={<Gallery />} /> */}
         <Route path="/education/languages" element={<LanguagesPage />} />
         <Route path="/skills/programmingskills" element={<ProgrammingPage />} />
         <Route path="/about" element={<About />} />
