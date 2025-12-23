@@ -9,7 +9,7 @@ import {
 import { motion, cubicBezier } from "framer-motion";
 import type { Variants } from "framer-motion";
 
-import runningImage from "../../../assets/Images/Running/2.webp";
+// import runningImage from "../../../assets/Images/Running/2.webp";
 import Sroor from "../../../imgs/Sror 2.webp";
 // import runningImage from "../assets/Images/Running/main.webp";
 
