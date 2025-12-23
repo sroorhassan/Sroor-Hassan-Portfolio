@@ -9,9 +9,7 @@ import {
 import { motion, cubicBezier } from "framer-motion";
 import type { Variants } from "framer-motion";
 
-// import runningImage from "../../../assets/Images/Running/2.webp";
 import Sroor from "../../../imgs/Sror 2.webp";
-// import runningImage from "../assets/Images/Running/main.webp";
 
 const fadeUp: Variants = {
   hidden: { opacity: 0, y: 40 },
@@ -75,7 +73,6 @@ export default function RunningSection() {
 
       <Divider sx={{ backgroundColor: "#222", my: 8 }} />
 
-      {/* ===== STATS CARDS ===== */}
       <motion.div
         variants={fadeUp}
         initial="hidden"
@@ -83,7 +80,6 @@ export default function RunningSection() {
         viewport={{ once: true }}
       >
         <Grid container spacing={4}>
-          {/* Card 1 */}
           <Grid size={{ xs: 12, md: 4 }}>
             <StatCard
               value="28"
@@ -93,7 +89,6 @@ export default function RunningSection() {
             />
           </Grid>
 
-          {/* Card 2 */}
           <Grid size={{ xs: 12, md: 4 }}>
             <StatCard
               value="49"
@@ -103,7 +98,6 @@ export default function RunningSection() {
             />
           </Grid>
 
-          {/* Card 3 */}
           <Grid size={{ xs: 12, md: 4 }}>
             <StatCard
               value="500+"
@@ -122,7 +116,6 @@ export default function RunningSection() {
   );
 }
 
-/* ===== STAT CARD COMPONENT ===== */
 
 type StatCardProps = {
   value: string;

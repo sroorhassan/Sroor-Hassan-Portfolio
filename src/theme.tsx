@@ -4,14 +4,14 @@ import { createTheme } from "@mui/material/styles";
 export const theme = createTheme({
   palette: {
     primary: {
-      main: "#6b0f1a", // اللون الرئيسي
+      main: "#6b0f1a",
     },
     secondary: {
-      main: "#cfcfcf", // لون ثانوي
+      main: "#cfcfcf", 
     },
     background: {
-      default: "#121212", // لون خلفية الموقع
-      paper: "#1e1e1e", // لون الخلفيات الثانوية (cards, sections)
+      default: "#121212", 
+      paper: "#1e1e1e", 
     },
     text: {
       primary: "#d4d4d4",
