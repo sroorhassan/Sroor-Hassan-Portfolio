@@ -27,29 +27,43 @@ function About() {
             }}
           />
 
-          <Box sx={{ maxWidth: { xs: "100%", md: "500px" } }}>
-            <Typography
-              variant="h2"
-              sx={{
-                fontWeight: 200,
-                mb: 2,
-                fontFamily: "Playfair",
-                textTransform: "uppercase",
-              }}
-            >
-              About Me
-            </Typography>
-            <Typography variant="body1" sx={{ mb: 3, color: "text.secondary",fontSize:"15px" }}>
-              Hello! I'm Sror Hassan, Ia passionate Backend Developer .NET / SQL Server with strong experience in building both web and desktop applications.
-Through self-learning and practical projects, I’ve developed solid skills in C#, ASP.NET Core, SQL Server, and a good understanding of React, HTML, CSS, and JavaScript, enabling me to deliver complete and well-structured solutions.
-I enjoy solving problems, optimizing backend performance, and learning new technologies to write clean, scalable, and maintainable code.
-I’m looking for opportunities where I can contribute to real-world software projects, collaborate with experienced teams, and grow as a developer.
-            </Typography>
+<Box
+  sx={{
+    maxWidth: { xs: "100%", md: "500px" },
+    textAlign: { xs: "center", md: "left" },
+  }}
+>
+  <Typography
+    variant="h2"
+    sx={{
+      fontWeight: 200,
+      mb: 2,
+      fontFamily: "Playfair",
+      textTransform: "uppercase",
+    }}
+  >
+    About Me
+  </Typography>
+
+  <Typography
+    variant="body1"
+    sx={{
+      mb: 3,
+      color: "text.secondary",
+      fontSize: "15px",
+    }}
+  >
+    .NET Backend Developer experienced in building reliable and maintainable
+    applications using ASP.NET Core, C#, and SQL Server. Skilled in developing
+    structured solutions using a 3-layer architecture, implementing RESTful
+    APIs, and working with relational databases. Seeking to grow in a
+    backend-focused environment and contribute to real-world production systems.
+  </Typography>
+
 <Button variant="contained" color="primary" component={Link} to="/about">
   Read More
 </Button>
-
-          </Box>
+</Box>
 
 
 

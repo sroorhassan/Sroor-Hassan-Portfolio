@@ -2,7 +2,6 @@ import Landing from "../sections/Landing";
 import About from "../sections/About";
 import Skills from "../sections/Skills";
 import Projects from "../sections/Projects";
-import Gallery from "../sections/Gallery";
 import Footer from "../components/home/Footer";
 import QuoteSection from "../sections/Qoute";
 function Home() {
@@ -17,7 +16,7 @@ function Home() {
       {/*Projects Section*/}
       <Projects></Projects>
       {/*Gallery Section*/}
-      <Gallery></Gallery>
+      {/* <Gallery></Gallery> */}
       {/*Gallery Section*/}
       <QuoteSection></QuoteSection>
 

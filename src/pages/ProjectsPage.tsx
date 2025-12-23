@@ -20,7 +20,7 @@ const projectData = {
       Title: "Dental Clinic Booking System (Desktop App)",
       Image: DentalClinic,
       About:
-        "Developed a comprehensive desktop application for managing patient appointments and treatments in a dental clinic. Features include adding patients, scheduling appointments, recording treatment details (e.g., cleaning, fillings), and printing reports. Technologies used: C#, .NET, SQL Server.",
+        "Developed a comprehensive desktop application for managing patient appointments and treatments in a dental clinic. Features include adding patients, scheduling appointments, recording treatment details (e.g., cleaning, fillings). Technologies used: C#, .NET, SQL Server.",
       Link: "https://github.com/Sror-7/Dental-Clinic.git",
     },
     {

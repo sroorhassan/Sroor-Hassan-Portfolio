@@ -1,4 +1,10 @@
-import { Box, Avatar, Typography, Button, Container } from "@mui/material";
+import {
+  Box,
+  Avatar,
+  Typography,
+  Button,
+  Container,
+} from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
 export default function QuoteSection() {
@@ -7,66 +13,79 @@ export default function QuoteSection() {
   return (
     <Box
       sx={{
-        borderRadius: "12px",
-        borderTop: "1px solid #666666ff",
-        borderBottom: "1px solid #666666ff",
-        mt: 3
+        mt: 8,
+        py: 6,
+        borderTop: "1px solid #2a2a2a",
+        borderBottom: "1px solid #2a2a2a",
       }}
     >
       <Container maxWidth="lg">
-            <Box
-      sx={{
-        width: "100%",
-        display: "flex",
-        alignItems: "center",
-        gap: 3,
-        p: 3,
-        borderRadius: "12px",
-        // backgroundColor: "#f7f7f7",
-        mt: 3
-      }}
-    >
-      <Avatar
-        src="/Qoutes/David Goggins 1.jpg"
-        alt="David Goggins"
-        sx={{
-          width: 140,
-          height: 140,
-          borderRadius: "12px",
-          objectFit: "cover"
-        }}
-      />
-
-      <Box sx={{ flex: 1 }}>
-        <Typography
+        <Box
           sx={{
-            fontSize: "20px",
-            fontWeight: 600,
-            lineHeight: 1.4
+            display: "flex",
+            alignItems: "center",
+            gap: 4,
+            flexDirection: { xs: "column", md: "row" },
+            textAlign: { xs: "center", md: "left" },
           }}
         >
-          “You are in danger of living a life so comfortable and soft that you
-          will die without ever realizing your true potential.”
-        </Typography>
+          {/* Avatar */}
+          <Avatar
+            src="/Qoutes/David Goggins 1.jpg"
+            alt="David Goggins"
+            sx={{
+              width: { xs: 120, md: 140 },
+              height: { xs: 120, md: 140 },
+              borderRadius: 3,
+              flexShrink: 0,
+              filter: "grayscale(100%)",
+            }}
+          />
 
-        <Typography sx={{ mt: 1, opacity: 0.7, fontSize: "16px" }}>
-          — David Goggins
-        </Typography>
+          {/* Text */}
+          <Box sx={{ maxWidth: 720 }}>
+            <Typography
+              sx={{
+                fontSize: { xs: 18, md: 20 },
+                fontWeight: 600,
+                lineHeight: 1.6,
+              }}
+            >
+              “You are in danger of living a life so comfortable and soft that you
+              will die without ever realizing your true potential.”
+            </Typography>
 
-        <Button
-          variant="text"
-          sx={{
-            mt: 2,
-            textTransform: "none",
-            fontSize: "16px",
-            fontWeight: 600
-          }}
-          onClick={() => navigate("/quotes")}
-        >
-          Show More →
-        </Button>
-      </Box></Box>
+            <Typography
+              sx={{
+                mt: 1.5,
+                opacity: 0.6,
+                fontSize: 15,
+              }}
+            >
+              — David Goggins
+            </Typography>
 
+            <Button
+              variant="text"
+              onClick={() => navigate("/quotes")}
+              sx={{
+                mt: 3,
+                px: 0,
+                textTransform: "none",
+                fontSize: 15,
+                fontWeight: 600,
+                color: "inherit",
+                opacity: 0.7,
+                "&:hover": {
+                  opacity: 1,
+                  backgroundColor: "transparent",
+                },
+              }}
+            >
+              View more quotes →
+            </Button>
+          </Box>
+        </Box>
       </Container>
     </Box>
   );

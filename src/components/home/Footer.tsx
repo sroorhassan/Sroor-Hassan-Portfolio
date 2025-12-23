@@ -74,7 +74,7 @@ export default function Footer() {
             color: "rgba(255,255,255,0.7)",
           }}
         >
-          © {new Date().getFullYear()} Sror Hassan — All Rights Reserved.
+          © 2025 Sroor Hassan — All Rights Reserved.
         </Typography>
 
         <Typography

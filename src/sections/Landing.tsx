@@ -72,14 +72,14 @@ function Landing() {
                 textAlign: "center",
                 fontFamily: "Playfair",
                 fontSize: {
-                  xs: "40px",
-                  sm: "50px",
-                  md: "60px",
+                  xs: "36px",
+                  sm: "46px",
+                  md: "56px",
                 },
                 textTransform: "uppercase",
               }}
             >
-              Sror Hassan
+              Sroor Hassan
             </Typography>
           </motion.div>
 

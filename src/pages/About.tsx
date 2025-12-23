@@ -48,23 +48,10 @@ export default function AboutPage() {
             mb: 4,
           }}
         >
-          Hello! I'm Sror Hassan — a passionate Backend Developer specializing
-          in .NET, C#, and SQL Server. My journey in programming started through
-          self-learning and building real-world projects that helped me
-          understand both backend architecture and how the frontend interacts
-          with it.
-          <br />
-          <br />
-          I have experience in:
-          <br />
-          • Building RESTful APIs with ASP.NET Core  
-          • Writing optimized SQL queries  
-          • Creating desktop apps using .NET  
-          • Understanding React, JavaScript, HTML, and CSS  
-          <br />
-          <br />
-          My goal is to join a professional team where I can contribute,
-          collaborate, and grow as a developer.
+.NET Backend Developer experienced in building reliable and maintainable applications using ASP.NET Core, 
+C#, and SQL Server. Skilled in developing structured solutions using a 3-layer architecture, implementing 
+RESTful APIs, and working with relational databases. Seeking to grow in a backend-focused environment and 
+contribute to real-world production systems. 
         </Typography>
 
           <Box sx={{ maxWidth: { xs: "100%", margin:"auto" } }}>
