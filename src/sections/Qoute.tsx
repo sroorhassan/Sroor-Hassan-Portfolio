@@ -6,7 +6,7 @@ import {
   Container,
 } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-
+import img from "../assets/Images/Qoutes/David-Goggins.webp"
 export default function QuoteSection() {
   const navigate = useNavigate();
 
@@ -31,7 +31,7 @@ export default function QuoteSection() {
         >
           {/* Avatar */}
           <Avatar
-            src="/Qoutes/David-Goggins.webp"
+            src={img}
             alt="David Goggins"
             sx={{
               width: { xs: 120, md: 140 },

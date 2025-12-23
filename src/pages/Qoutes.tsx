@@ -1,9 +1,9 @@
 import { Container, Grid, Typography, Box, CssBaseline, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import img1 from "/Qoutes/David-Goggins.webp";
-import img2 from "/Qoutes/Steve-Jobs.webp";
-import img3 from "/Qoutes/Muhamed-Ali.webp";
-import img4 from "/Qoutes/Albert-Einstein.webp";
+import img1 from "../assets/Images/Qoutes/David-Goggins.webp";
+import img2 from "../assets/Images/Qoutes/Steve-Jobs.webp";
+import img3 from "../assets/Images/Qoutes/Muhamed-Ali.webp";
+import img4 from "../assets/Images/Qoutes/Albert-Einstein.webp";
 
 const quotes = [
     {
