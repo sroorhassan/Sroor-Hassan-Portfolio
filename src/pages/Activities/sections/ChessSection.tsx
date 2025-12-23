@@ -9,7 +9,7 @@ import {
 import { motion, cubicBezier } from "framer-motion";
 import type { Variants } from "framer-motion";
 
-import chessImage from "../../../assets/Images/Chess/chess.webp";
+import chessImage from "../../../assets/Images/chess/chess.webp";
 
 const fadeUp: Variants = {
   hidden: { opacity: 0, y: 40 },
