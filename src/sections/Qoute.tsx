@@ -31,7 +31,7 @@ export default function QuoteSection() {
         >
           {/* Avatar */}
           <Avatar
-            src="/Qoutes/David Goggins 1.webp"
+            src="/Qoutes/David-Goggins.webp"
             alt="David Goggins"
             sx={{
               width: { xs: 120, md: 140 },
